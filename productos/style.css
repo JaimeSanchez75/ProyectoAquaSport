@@ -1,0 +1,153 @@
+header 
+{
+   
+    background-color: #44596e;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    margin:0px;
+    
+    
+}
+
+header h1 
+{
+    flex-wrap: wrap;
+    justify-self: left;
+    
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header p 
+{
+    flex-wrap: wrap;
+    justify-self: left;
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+nav 
+{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+nav ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li 
+{
+    display: inline-block;
+}
+
+nav ul li a 
+{
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover
+{
+    background-color: #575757;
+}
+.logo
+{
+    display: table-cell; 
+    vertical-align: middle; 
+     
+    padding-left: 20px;
+}
+.logo img
+{
+    width: 130px; 
+    display: block;
+    margin:15px;
+}
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px; /* añade espacio entre productos y footer */
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.container {
+    flex: 1; /* esto permite que el contenido crezca y deje espacio para el footer */
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 250px; /* Limita la altura de la imagen */
+}
+
+.product-card .product-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    color: #1dbe96;
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: auto;
+}
+
+.product-card button:hover {
+    background-color: #575757;
+}
+
+footer 
+{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+body
+{
+    background-image:url("../productos/fondo/fondo2.jpg");
+    background-repeat: repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}

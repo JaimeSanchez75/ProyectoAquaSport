@@ -1,0 +1,165 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    background-image:url("../contacto/fondo/fondo.jpg");
+    background-repeat: repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+header 
+{
+   
+    background-color: #44596e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    
+    
+}
+
+header h1 
+{
+    flex-wrap: wrap;
+    justify-self: left;
+    
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header p 
+{
+    flex-wrap: wrap;
+    justify-self: left;
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+nav 
+{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+nav ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li 
+{
+    display: inline-block;
+}
+
+nav ul li a 
+{
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover
+{
+    background-color: #575757;
+}
+
+.container div
+{
+    width: 60%;
+    margin: 70px auto;
+}
+.container .contacto
+{
+    background-color: #d7e2ee;
+    box-shadow: #2f3c44;
+    border: 2px;
+    border-style:outset;
+    padding: 10px;
+}
+.container .direccion
+{
+    background-color: #d7e2ee;
+    box-shadow: #2f3c44;
+    border: 2px;
+    border-style:outset;
+    padding: 10px;
+}
+.container .formulario
+{
+    background-color: #3f4a5f;
+    box-shadow: #2f3c44;
+    border: 2px;
+    border-style:solid;
+    padding: 10px;
+}
+.container .formulario 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+form{
+    
+    width: 60%;
+}
+
+input{
+    width: 40%;
+}
+textarea{
+width: 100%;
+}
+a
+{
+    color:lightblue;
+}
+footer 
+{
+    background-color: #24293a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.logo
+{
+    display: table-cell; 
+    vertical-align: middle; 
+     
+    padding-left: 20px;
+}
+.logo img
+{
+    width: 130px; 
+    display: block;
+    margin:15px;
+}
+.formulario h3 
+{
+    color: white;
+}
+label
+{
+    font-size: 20px;
+    color:white;
+    width: 60%;
+}
+svg
+{
+    padding-left:10px;
+    width:20px;
+    height:20px;
+}

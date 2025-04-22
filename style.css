@@ -1,0 +1,167 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    background-image:url("../main/fondos/fondo3.jpg");
+    background-repeat: repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+header 
+{
+   
+    background-color: #44596e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    
+    
+}
+
+header h1 
+{
+    flex-wrap: wrap;
+    justify-self: left;
+    
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header p 
+{
+    flex-wrap: wrap;
+    justify-self: left;
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+nav 
+{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+nav ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li 
+{
+    display: inline-block;
+}
+
+nav ul li a 
+{
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.5s ease;
+}
+
+nav ul li a:hover
+{
+    background-color: #575757;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 150px;
+    height: auto;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.price {
+    color: #2d3e50;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #575757;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.container .info
+{
+    background-color: #d7e2ee;
+    box-shadow: #2f3c44;
+    border: 2px;
+    
+    padding: 10px;
+}
+.container .info h2
+{
+    font-style: italic;
+    font-size: 30px;
+    margin:20px;
+}
+.container .msg
+{
+    background-color: #333;
+    color:white;
+    
+ 
+    
+    padding: 10px;
+    text-align: center;
+}
+.corredor
+{
+    background-image:url("../main/fondos/correr.gif");
+    background-repeat: repeat;
+    background-clip: content-box;
+    background-size: contain;
+    background-position: center;
+    background-attachment:local;
+}
+.productos
+{
+    margin-left: 10%;
+}
