@@ -4,7 +4,7 @@ body
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    background-image:url("../main/fondos/fondo3.jpg");
+    background-image:url("main/fondos/fondo3.jpg");
     background-repeat: repeat;
     background-position: bottom;
     background-attachment: fixed;
@@ -154,7 +154,7 @@ footer {
 }
 .corredor
 {
-    background-image:url("../main/fondos/correr.gif");
+    background-image:url("main/fondos/correr.gif");
     background-repeat: repeat;
     background-clip: content-box;
     background-size: contain;
