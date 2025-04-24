@@ -81,7 +81,7 @@ nav ul li a:hover
 .container .contacto
 {
     background-color: #d7e2ee;
-    box-shadow: #2f3c44;
+    
     border: 2px;
     border-style:outset;
     padding: 10px;
@@ -89,7 +89,7 @@ nav ul li a:hover
 .container .direccion
 {
     background-color: #d7e2ee;
-    box-shadow: #2f3c44;
+    
     border: 2px;
     border-style:outset;
     padding: 10px;
@@ -97,7 +97,7 @@ nav ul li a:hover
 .container .formulario
 {
     background-color: #3f4a5f;
-    box-shadow: #2f3c44;
+    
     border: 2px;
     border-style:solid;
     padding: 10px;
